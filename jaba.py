@@ -1,11 +1,8 @@
 from __future__ import unicode_literals
-import os
-import sys
 import time
- 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
- 
 from halo import Halo
+ 
+ 
  
 success_message = 'Loading success'
 failed_message = 'Loading failed'
